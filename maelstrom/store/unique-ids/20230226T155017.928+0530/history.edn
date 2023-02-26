@@ -1,0 +1,42 @@
+{:index 0, :time 12399779, :type :invoke, :process 0, :f :generate, :value nil}
+{:index 1, :time 15981227, :type :info, :process :nemesis, :f :start-partition, :value :majority}
+{:index 2, :time 16340986, :type :invoke, :process 2, :f :generate, :value nil}
+{:index 3, :time 18132986, :type :invoke, :process 1, :f :generate, :value nil}
+{:index 4, :time 26247688, :type :info, :process :nemesis, :f :start-partition, :value [:isolated {"n1" #{"n2" "n0"}, "n2" #{"n1"}, "n0" #{"n1"}}]}
+{:index 5, :time 5020078875, :type :info, :process 2, :f :generate, :value nil, :error :net-timeout}
+{:index 6, :time 5020319624, :type :info, :process 1, :f :generate, :value nil, :error :net-timeout}
+{:index 7, :time 5020391506, :type :invoke, :process 4, :f :generate, :value nil}
+{:index 8, :time 5022322137, :type :invoke, :process 5, :f :generate, :value nil}
+{:index 9, :time 5024208440, :type :info, :process 0, :f :generate, :value nil, :error :net-timeout}
+{:index 10, :time 5024351319, :type :invoke, :process 3, :f :generate, :value nil}
+{:index 11, :time 10024503544, :type :info, :process 4, :f :generate, :value nil, :error :net-timeout}
+{:index 12, :time 10024665936, :type :invoke, :process 7, :f :generate, :value nil}
+{:index 13, :time 10026909342, :type :info, :process 3, :f :generate, :value nil, :error :net-timeout}
+{:index 14, :time 10027036042, :type :invoke, :process 6, :f :generate, :value nil}
+{:index 15, :time 10028059526, :type :info, :process 5, :f :generate, :value nil, :error :net-timeout}
+{:index 16, :time 10032129489, :type :invoke, :process 8, :f :generate, :value nil}
+{:index 17, :time 12646908932, :type :info, :process :nemesis, :f :stop-partition, :value nil}
+{:index 18, :time 12649965808, :type :info, :process :nemesis, :f :stop-partition, :value :network-healed}
+{:index 19, :time 15028734833, :type :info, :process 7, :f :generate, :value nil, :error :net-timeout}
+{:index 20, :time 15028918150, :type :invoke, :process 10, :f :generate, :value nil}
+{:index 21, :time 15031658769, :type :info, :process 6, :f :generate, :value nil, :error :net-timeout}
+{:index 22, :time 15031825005, :type :invoke, :process 9, :f :generate, :value nil}
+{:index 23, :time 15035683315, :type :info, :process 8, :f :generate, :value nil, :error :net-timeout}
+{:index 24, :time 15035838393, :type :invoke, :process 11, :f :generate, :value nil}
+{:index 25, :time 20033990211, :type :info, :process 10, :f :generate, :value nil, :error :net-timeout}
+{:index 26, :time 20034187735, :type :invoke, :process 13, :f :generate, :value nil}
+{:index 27, :time 20034840347, :type :info, :process 9, :f :generate, :value nil, :error :net-timeout}
+{:index 28, :time 20036654386, :type :info, :process 11, :f :generate, :value nil, :error :net-timeout}
+{:index 29, :time 20036777081, :type :invoke, :process 12, :f :generate, :value nil}
+{:index 30, :time 20037113388, :type :invoke, :process 14, :f :generate, :value nil}
+{:index 31, :time 25035512531, :type :info, :process 13, :f :generate, :value nil, :error :net-timeout}
+{:index 32, :time 25035720572, :type :invoke, :process 16, :f :generate, :value nil}
+{:index 33, :time 25040136632, :type :info, :process 12, :f :generate, :value nil, :error :net-timeout}
+{:index 34, :time 25040344381, :type :invoke, :process 15, :f :generate, :value nil}
+{:index 35, :time 25042996373, :type :info, :process 14, :f :generate, :value nil, :error :net-timeout}
+{:index 36, :time 25043154297, :type :invoke, :process 17, :f :generate, :value nil}
+{:index 37, :time 27766861356, :type :info, :process :nemesis, :f :start-partition, :value :majorities-ring}
+{:index 38, :time 27786039292, :type :info, :process :nemesis, :f :start-partition, :value [:isolated {"n2" #{"n0"}, "n0" #{"n1"}, "n1" #{"n2"}}]}
+{:index 39, :time 30039045535, :type :info, :process 16, :f :generate, :value nil, :error :net-timeout}
+{:index 40, :time 30043048212, :type :info, :process 15, :f :generate, :value nil, :error :net-timeout}
+{:index 41, :time 30044235826, :type :info, :process 17, :f :generate, :value nil, :error :net-timeout}
